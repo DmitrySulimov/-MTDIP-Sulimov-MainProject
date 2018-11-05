@@ -15,6 +15,7 @@ namespace ConsoleApp1
             a = Int32.Parse(Console.ReadLine());
             Console.WriteLine("Введите число b");
             b = Int32.Parse(Console.ReadLine());
+
             diff = a - b;
             Console.WriteLine("Ваша сумма равна {0}", diff);
             Console.ReadKey();
